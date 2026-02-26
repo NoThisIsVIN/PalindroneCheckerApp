@@ -11,12 +11,12 @@ public class UseCase3PalindromeCheckerApp {
 
         String reversed = "";
 
-        // Step 1: Reverse string using loop
+        
         for (int i = original.length() - 1; i >= 0; i--) {
             reversed = reversed + original.charAt(i);
         }
 
-        // Step 2: Compare original and reversed
+        
         if (original.equals(reversed)) {
             System.out.println("The given string is a Palindrome.");
         } else {
