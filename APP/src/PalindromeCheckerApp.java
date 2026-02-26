@@ -10,13 +10,13 @@ public class UseCase13PalindromeCheckerApp {
 
         long start, end;
 
-        // Algorithm 1: Reverse String
+        
         start = System.nanoTime();
         boolean result1 = reverseCheck(input);
         end = System.nanoTime();
         System.out.println("Reverse Method Time: " + (end - start) + " ns");
 
-        // Algorithm 2: Two Pointer
+        
         start = System.nanoTime();
         boolean result2 = twoPointerCheck(input);
         end = System.nanoTime();
