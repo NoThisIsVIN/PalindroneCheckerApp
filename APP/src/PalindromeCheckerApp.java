@@ -9,14 +9,14 @@ public class UseCase4PalindromeCheckerApp {
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
 
-        // Convert string to character array
+        
         char[] charArray = input.toCharArray();
 
         int start = 0;
         int end = charArray.length - 1;
         boolean isPalindrome = true;
 
-        // Two-pointer comparison
+        
         while (start < end) {
             if (charArray[start] != charArray[end]) {
                 isPalindrome = false;
