@@ -8,7 +8,7 @@ public class UseCase10PalindromeCheckerApp {
         System.out.print("Enter a string: ");
         String input = sc.nextLine();
 
-        // Normalize: remove spaces & convert to lowercase
+
         String normalized = input.replaceAll("\\s+", "").toLowerCase();
 
         boolean isPalindrome = checkPalindrome(normalized);
